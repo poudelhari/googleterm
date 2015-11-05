@@ -4,7 +4,7 @@
 import sys
 from optparse import OptionParser
 parser = OptionParser(
-	version=" %prog V0.1 Ben Holroyd",   
+	version=" %prog V0.1 Hari Poudel",   
 	description = "%prog - google results in the terminal.",
 	usage = "%prog [-vr] [--view] [--results][--help] [--version]")
 parser.add_option("-r","--results",action="store",type = "int",dest="results",help="display specified number of results, default is 10." )
